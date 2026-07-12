@@ -1,0 +1,16 @@
+Usage:
+    wsmgr [-v|-h] [command -f args]
+
+Commands:
+    run <name> : runs programs or script
+        -p : runs a program
+    list : lists items in database
+        -p : lists programs
+        -s : lists scripts
+    reg  : registers and adds items to database (unifinished)
+        -p : register program
+        -s : register script
+    def <option> : default configuration
+        get : print current default config
+        set <wsmgr arguments> : sets default run conf, exemple wsmgr def set run my_script
+    edit : editing items in database (untested)

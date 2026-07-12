@@ -1,0 +1,111 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5" pages="2">
+  <diagram name="Overview" id="HjxNDTYHhOiWI-spQbZB">
+    <mxGraphModel dx="1546" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AINFOLmGsyv7P39uRS9b-1" value="Components" style="text;strokeColor=none;align=center;fillColor=light-dark(#fffcba, #131b00);html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry width="849" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-27" value="ConsoleInterface" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680.0025925705166" y="290.0033333333333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-35" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=none;endSize=8;endFill=0;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-28" target="X_Bc3YQo2dtKVS5Ca0FN-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-28" value="OrchAPI" style="whiteSpace=wrap;html=1;fillColor=light-dark(#cfe6ff, #00262a);verticalAlign=top;fillStyle=auto;opacity=50;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="560" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-42" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endSize=8;endFill=1;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-23" target="X_Bc3YQo2dtKVS5Ca0FN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-23" value="ProjectMgr" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80.00259257051664" y="360.0033333333333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-50" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-24" target="X_Bc3YQo2dtKVS5Ca0FN-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-51" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-24" target="X_Bc3YQo2dtKVS5Ca0FN-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-52" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-24" target="X_Bc3YQo2dtKVS5Ca0FN-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-53" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-24" target="X_Bc3YQo2dtKVS5Ca0FN-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-24" value="DataMgr" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160.00259257051664" y="240.00333333333327" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-43" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-25" target="X_Bc3YQo2dtKVS5Ca0FN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-25" value="ToolRegister" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.00259257051664" y="360.0033333333333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-44" style="edgeStyle=none;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startFill=0;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="1" source="X_Bc3YQo2dtKVS5Ca0FN-26" target="X_Bc3YQo2dtKVS5Ca0FN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-26" value="TaskPlanner" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440.00259257051664" y="280.0033333333333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-36" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#CFE6FF;" vertex="1" parent="1">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-37" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#D1BEFF;" vertex="1" parent="1">
+          <mxGeometry x="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-38" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#D681FF;" vertex="1" parent="1">
+          <mxGeometry x="80" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-39" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#FFFCBA;" vertex="1" parent="1">
+          <mxGeometry x="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-40" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#FFCDAD;" vertex="1" parent="1">
+          <mxGeometry x="160" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-46" value="project metadata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-47" value="tool metadata" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-48" value="task data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-49" value="path data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-54" value="Project description:&lt;div&gt;- A collection of tools for personal use, which includes Project Manger, Tool register, Task Planner.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Compoennets:&lt;/div&gt;&lt;div&gt;- DataMgr - component used by all other component that provides uniform access to data for all other components.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Provides paths for each components data folders&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Allows to edit and change data folder for each component separatly or for all at the same time&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- allows to migrate data from one folder to other.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- (future?) implemetns online syncronization and data management for cloud service&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ToolRegister - more of a tag collection to help mentally track all tool&amp;nbsp; and programs on my machine&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- manage and track all tool on my machine&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- hold some tool specific templates and scripts for inclusion and creation of projects&lt;br&gt;&lt;/div&gt;&lt;div&gt;- ProjectMgr - manages all personal projects on and outside this machine.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- manage and track projects&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- create project templates&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- build project configuration and add specific tools&lt;/div&gt;&lt;div&gt;- TaskPlanner - simple todo list and more organizational features to track progress, and manage events and plans.&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Todo lists&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Event planning&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- TimeTable planning&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- MainGoal and paths planning&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=light-dark(#7db0ff, #ededed);align=left;fillColor=default;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;perimeterSpacing=0;strokeWidth=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="770" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-55" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#2E5AAF;" vertex="1" parent="1">
+          <mxGeometry y="36" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-56" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#5122AC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="36" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-57" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#9918B8;" vertex="1" parent="1">
+          <mxGeometry x="80" y="36" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-58" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#B39144;" vertex="1" parent="1">
+          <mxGeometry x="120" y="36" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X_Bc3YQo2dtKVS5Ca0FN-59" value="" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;strokeColor=none;fillColor=#A15353;" vertex="1" parent="1">
+          <mxGeometry x="160" y="36" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dad9MByYjSD1HTn3o1xX" name="WSMGR">
+    <mxGraphModel dx="993" dy="677" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OwAf9QjfOZl8CIokgL2f-3" value="- WorkSpace manager:&lt;div&gt;&amp;nbsp; Run preconfigured startup script to set up all applications for specific work&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Functionalities&lt;br&gt;&lt;/div&gt;&lt;div&gt;- run &amp;lt;workspace&amp;gt;&lt;/div&gt;&lt;div&gt;- list&lt;/div&gt;&lt;div&gt;- regtool &amp;lt;name&amp;gt; &amp;lt;path&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;How to make a workspace&lt;/div&gt;&lt;div&gt;register tools&lt;/div&gt;&lt;div&gt;add application instance&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;tool and it&#39;s arguments to open&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Objects:&lt;/div&gt;&lt;div&gt;- Program&lt;/div&gt;&lt;div&gt;- Argument&lt;/div&gt;&lt;div&gt;- RunTask&lt;/div&gt;&lt;div&gt;- BrouserLink&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="-84" width="484" height="561" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
