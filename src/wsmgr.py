@@ -33,8 +33,11 @@ class Command(StrEnum):
 
 # ====================================== UTILS ======================================
 
-def print_help():
-    with open(r"D:\projects\programing\python2\serious\project_mgr_proto\data\help.txt", "r") as f:
+def print_help(args):
+    path = pathlib.Path(args[0]).parent.parent
+    path = str(path) + r"\data\help.txt"
+
+    with open(path, "r") as f:
         print(f.read())
 
 
@@ -127,7 +130,7 @@ def interpret_command_arr(args: List[str]):
     for f in flags:
         match f:
             case "v": print(f" Work Spape Manager v{DataMgr().APP_VERSION}")
-            case "h": print_help()
+            case "h": print_help(args)
 
     match command:
         case "":
@@ -238,7 +241,7 @@ def interpret_command_arr(args: List[str]):
 
 
         case Command.HELP:
-            print_help()
+            print_help(args)
         case _:
             dprint("unknown command", _type=LogType.ERROR)
 
