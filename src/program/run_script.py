@@ -40,6 +40,7 @@ class RunTask(Jsonable):
             self.cwd = cwd
         else:
             dprint(f"path {cwd} does exists", who=whoami(self), _type=LogType.ERROR)
+            self.cwd = ""
         self.termination_commnad = termination_command
 
     def run(self):

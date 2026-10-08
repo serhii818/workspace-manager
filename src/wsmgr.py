@@ -34,7 +34,7 @@ class Command(StrEnum):
 # ====================================== UTILS ======================================
 
 def print_help():
-    with open("data/help.txt", "r") as f:
+    with open(r"D:\projects\programing\python2\serious\project_mgr_proto\data\help.txt", "r") as f:
         print(f.read())
 
 
@@ -133,6 +133,7 @@ def interpret_command_arr(args: List[str]):
         case "":
             pass
         case Command.RUN: _handle_run_comm(args, arg_idx)
+
         case Command.LIST:
             dprint("list")
             what, flags, arg_idx = next_command(args, arg_idx)
@@ -152,6 +153,7 @@ def interpret_command_arr(args: List[str]):
                     for t in DataMgr().runscripts[k].tasks:
                         print(f"\t\t[{i}] {t.program.name:<20} {t.argument:>20}")
                         i+=1
+
         case Command.REGISTER | "reg" | Command.NEW:
             dprint("registering")
             what, flags, arg_idx = next_command(args, arg_idx)
@@ -171,6 +173,7 @@ def interpret_command_arr(args: List[str]):
             elif "s" in flags:
                 rs = RunScript(what)
                 DataMgr().reg_runscript(rs)
+
         case Command.DEFAULT | "def":
             dprint("default run")
             what, flags, arg_idx = next_command(args, arg_idx)
